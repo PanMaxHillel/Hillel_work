@@ -52,13 +52,13 @@ print("Вывод чисел в столбец")
 
 user_cifra = int( input("Введите число, которое нужно разбить в стобик: "))
 
-a = user_cifra // 1000
-b = (user_cifra // 100) % 10
-c = (user_cifra // 10) % 10
-d = user_cifra % 10
+meaning_1 = user_cifra // 1000
+meaning_2 = (user_cifra // 100) % 10
+meaning_3= (user_cifra // 10) % 10
+meaning_4= user_cifra % 10
 
-print("Первая цифра: ", a)
-print("Вторая цифра:",b)
-print("Третья цифра:",c)
-print("Четвертая цифра:",d)
+print("Первая цифра: ", meaning_1)
+print("Вторая цифра:",meaning_2)
+print("Третья цифра:",meaning_3)
+print("Четвертая цифра:",meaning_4)
 
