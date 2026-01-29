@@ -14,9 +14,11 @@ elif user_input2 == "*":
     print(user_input1 * user_input3)
 
 elif user_input2 == "/":
-    print(user_input1 / user_input3)
+    if user_input3 != 0:
+        print(user_input1 / user_input3)
+    else:
+        print("Ошибка")
 
 else:
     print("Нет данных")
-
 
