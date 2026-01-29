@@ -15,7 +15,7 @@ user_input_3 = int( input("Введите третью цифру:"))
 print( (user_input_1 + user_input_2 + user_input_3) // 3 )
 
 #Задание №3 "Перевод минут в часы"
-print("Перевод минут в часы")
+(print("Перевод минут в часы"))
 
 USER_INPUT_1 = int (input("Введите минуты:"))
 
