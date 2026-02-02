@@ -1,4 +1,4 @@
-frst1 = [0]
+frst1 = [1, 2, 3, 4, 5, 6]
 
 sum_frst1 = sum(frst1[0::2])
 result = sum_frst1 * frst1[-1]
