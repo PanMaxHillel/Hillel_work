@@ -1,4 +1,4 @@
-frst1 = [0]
+frst1 = []
 
 if len(frst1) == 0:
     result = 0
