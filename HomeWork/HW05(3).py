@@ -1,6 +1,6 @@
 import string
 
-us_post = input ("VVed: ")
+us_post = input ("Введите имя поста: ")
 
 clear_post = ""
 for ch in us_post:
