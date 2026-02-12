@@ -8,7 +8,7 @@ result = True
 if not name:
     result = False
 
-elif name.count("_") > 1:
+elif name.count("__") > 1:
     result = False
 
 elif name[0].isdigit():
