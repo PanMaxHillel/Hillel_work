@@ -1,6 +1,6 @@
 import string
 
-inp_user1 = input("Dai bykvi loh: ")
+inp_user1 = input("Введите буквы: ")
 
 frs_let, sec_let = inp_user1.split("-")
 
